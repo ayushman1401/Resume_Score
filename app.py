@@ -2,7 +2,6 @@
 import streamlit as st
 import os
 import re
-import PyPDF2
 import pdfplumber
 import pandas as pd
 import numpy as np
