@@ -27,7 +27,7 @@ def calculate_score(resume_text, jd_text):
 # Load JD dataset
 @st.cache_data
 def load_dataset():
-    return pd.read_csv('job-descriptions/training_data.csv')
+    return pd.read_csv('training_data.csv')
 
 # Streamlit App UI
 st.set_page_config(page_title="Resume Scorer", layout="centered")
